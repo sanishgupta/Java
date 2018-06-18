@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>BankApplication</display-name>
+  <welcome-file-list>
+    <welcome-file>/jsppages/login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ValidateServlet</display-name>
+    <servlet-name>ValidateServlet</servlet-name>
+    <servlet-class>validate.ValidateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidateServlet</servlet-name>
+    <url-pattern>/ValidateServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>validation</display-name>
+    <servlet-name>validation</servlet-name>
+    <servlet-class>validation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>validation</servlet-name>
+    <url-pattern>/validation.do</url-pattern>
+  </servlet-mapping>
+</web-app>

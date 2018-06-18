@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/KOJ_Till/!svn/ver/1266/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/dao
+END
+KOJEmailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/KOJ_Till/!svn/ver/1266/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/dao/KOJEmailDao.java
+END
+KOJDBConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/KOJ_Till/!svn/ver/1266/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/dao/KOJDBConstant.java
+END
+KOJDBUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/KOJ_Till/!svn/ver/1266/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/dao/KOJDBUtil.java
+END
+KOJPropReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/KOJ_Till/!svn/ver/1266/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/dao/KOJPropReader.java
+END

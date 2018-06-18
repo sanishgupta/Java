@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="one2oneRelationShip.Employee" table="Employee_Details">
+   <id name="empId" column="employee_id" >
+   	<generator class="assigned" />
+   </id>
+
+  <property name="firstName" type="java.lang.String" length="25" not-null="true" unique="true">
+     <column name="first_name" />
+  </property>
+  <property name="lastName">
+    <column name="last_name"/>
+  </property>
+  <property name="age">
+    <column name="age"/>
+  </property>
+  <property name="salary">
+    <column name="salary"/>
+  </property>
+  <property name="dob" type="timestamp" >
+  	<column name="Date_of_Birth"></column>
+  </property>
+  
+  
+  	<!--  Mapping When Use java.util.List then it map to its internal List of hibernate define -->
+  	<list name="phone" table="employee_phone" lazy="true">
+  		<key column="employee_id" />
+  		<!-- List of index of list -->
+  		<index column="idx" />
+  		<element column="phone_number" type="string" length="20"></element>
+  	</list>
+  	
+  	<map name="email" table="employee_email" lazy="false">
+  		<key column="employee_id"></key>
+  		<map-key column="email_index" type="string" length="30"></map-key>
+  		<element column="email" type="string"></element>
+  	</map>
+  	<one-to-one name="address" class="many2one.Address" foreign-key="employee_id">
+  	</one-to-one>
+ </class>
+ 
+ <class name="one2oneRelationShip.Address" table="address_details" >
+ <id name="id" column="Addressid" type="int">
+ 	<generator class="native"></generator>
+ </id>
+ 	<property name="houseNo" ></property>
+	<property name="streetNo"></property>
+	<property name="city"></property>
+	<property name="state"></property>
+	<property name="zipCode"></property>
+</class>
+</hibernate-mapping>

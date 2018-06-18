@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="example.Employee" table="Employee_Details">
+   <id name="empId" column="employee_id" >
+   	<generator class="assigned" />
+   </id>
+
+  <property name="firstName" type="java.lang.String" length="25" not-null="true" unique="true">
+     <column name="first_name" />
+  </property>
+  <property name="lastName">
+    <column name="last_name"/>
+  </property>
+  <property name="age">
+    <column name="age"/>
+  </property>
+  <property name="salary">
+    <column name="salary"/>
+  </property>
+ </class>
+</hibernate-mapping>

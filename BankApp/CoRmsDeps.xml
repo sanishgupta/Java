@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<divisions>
+	<division>
+		<division_id>1</division_id>
+		<division_name>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</division_name>
+		<group>
+			<group_id>3082</group_id>
+			<group_name>Designers Of Splash</group_name>
+			<dept>
+			<dept_id>2377</dept_id>
+			<dept_name>Designers Of Splash-Mens Casual Woven</dept_name>
+			</dept>
+		<group>
+	</division>
+
+	<division>
+		<division_id>22</division_id>
+		<division_name></division_name>
+		<group>
+			<group_id>1</group_id>
+			<group_name></group_name>
+			<dept>
+			<dept_id>123</dept_id>
+			<dept_name></dept_name>
+			</dept>
+		<group>
+	</division>
+
+	<division>
+		<division_id></division_id>
+		<division_name></division_name>
+		<group>
+			<group_id>12</group_id>
+			<group_name></group_name>
+			<dept>
+			<dept_id>55</dept_id>
+			<dept_name>Concessionaire-Scarf</dept_name>
+			</dept>
+		<group>
+	</division>
+</divisions>

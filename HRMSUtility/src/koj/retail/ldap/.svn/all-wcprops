@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/KOJ_Till/!svn/ver/1813/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/ldap
+END
+KOJXMLParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/KOJ_Till/!svn/ver/1813/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/ldap/KOJXMLParser.java
+END
+KOJLdapUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/KOJ_Till/!svn/ver/1268/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/ldap/KOJLdapUtil.java
+END
+KOJEmployee.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/KOJ_Till/!svn/ver/1268/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/ldap/KOJEmployee.java
+END
+KOJEncryptDecrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/KOJ_Till/!svn/ver/1268/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/ldap/KOJEncryptDecrypt.java
+END
+KOJLdapProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/KOJ_Till/!svn/ver/1813/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/ldap/KOJLdapProcessor.java
+END
+KOJLdapPassword.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/KOJ_Till/!svn/ver/1813/05_Development/v0.1/sim/HRMSUtility/src/koj/retail/ldap/KOJLdapPassword.java
+END
