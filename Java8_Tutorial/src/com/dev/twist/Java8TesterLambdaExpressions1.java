@@ -87,7 +87,7 @@ public class Java8TesterLambdaExpressions1 {
 		return numbers.parallelStream().filter(predicate).mapToInt(i -> i).sum();
 	}
 	
-	public static int findSquareOfMaxOdd(List<Integer> numbers) {
+	public static int findSquareOfMaxOdd(List<Integer> numbers) {/*
 		return numbers.stream()
 				.filter(NumberTest::isOdd) 		//Predicate is functional interface and
 				.filter(NumberTest::isGreaterThan3)	// we are using lambdas to initialize it
@@ -95,7 +95,9 @@ public class Java8TesterLambdaExpressions1 {
 				.max(Comparator.naturalOrder())
 				.map(i -> i * i)
 				.get();
-	}
+	*/
+		return -1;
+		}
 
 	public static boolean isOdd(int i) {
 		return i % 2 != 0;

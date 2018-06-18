@@ -1,4 +1,4 @@
-
+/*
 package com.dev.twist;
 
 interface Foo
@@ -111,4 +111,4 @@ interface Bar<T>
 interface FooBar<X, Y> extends Foo<X>, Bar<Y>
 {
 }
-// Compiler error: different signatures, same erasure
+// Compiler error: different signatures, same erasure*/
