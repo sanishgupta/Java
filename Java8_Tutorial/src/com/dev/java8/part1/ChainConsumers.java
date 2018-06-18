@@ -7,6 +7,7 @@ import java.util.function.Consumer;
 
 public class ChainConsumers {
 
+	
 	public static void main(String... args) {
 
 		List<String> strings = Arrays.asList("one", "two", "three", "four", "five");
